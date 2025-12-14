@@ -3,9 +3,19 @@
     "name": "Less AI",
     "version": "0.0.1",
     "description": "an attempt to de-enshitify the browsing experience made worse by AI being shoved down our throats.",
-    "icons": {
-    },
+    "icons": {},
     "action": {
         "default_popup": "index.html"
-    }
+    },
+    "content_scripts": [
+        {
+            "matches": [
+                "http://*.google*",
+                "https://*.google*"
+            ],
+            "js": [
+                "google-less-ai.js"
+            ]
+        }
+    ]
 }
