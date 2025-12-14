@@ -1,0 +1,11 @@
+{
+    "manifest_version": 3,
+    "name": "Less AI",
+    "version": "0.0.1",
+    "description": "an attempt to de-enshitify the browsing experience made worse by AI being shoved down our throats.",
+    "icons": {
+    },
+    "action": {
+        "default_popup": "index.html"
+    }
+}
