@@ -10,12 +10,12 @@
     "content_scripts": [
         {
             "matches": [
-                "http://*.google*",
-                "https://*.google*"
+                "https://*.google.com/*"
             ],
             "js": [
                 "google-less-ai.js"
-            ]
+            ],
+            "run_at": "document_start"
         }
     ]
 }
